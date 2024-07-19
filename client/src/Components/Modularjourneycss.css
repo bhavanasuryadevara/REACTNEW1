@@ -1,0 +1,52 @@
+.banner-container34 {
+    
+        background-image: url('./Images/Modjourney.avif'); /* Assuming your image folder is named 'Images' */
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; /* Added for horizontal centering */
+        height: 100vh;
+        width: 100vw;
+        color: white;
+      }
+  
+  .banner-container34 h1 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .banner-container34 p {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+    
+    
+  }
+                  
+  .button-container33 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button-container12 {
+    margin-top: 20px;
+  }
+  
+  .button-container12 .btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff5733; /* Button color */
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-container12 .btn:hover {
+    background-color: #d14627; /* Button hover color */
+  }
+  

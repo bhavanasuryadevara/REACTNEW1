@@ -1,0 +1,32 @@
+/* PieChartComponent.css */
+
+.piechart-container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.piechart-container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Optionally style the chart itself */
+.apexcharts-canvas {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Optionally style the chart title */
+.apexcharts-title-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+}

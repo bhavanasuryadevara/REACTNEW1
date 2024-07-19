@@ -1,0 +1,19 @@
+.Light {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.light-mode {
+    background-color: #ffffff; /* Light mode background color */
+    color: #29883d; /* Light mode text color */
+}
+
+.dark-mode {
+    background-color: #333333; /* Dark mode background color */
+    color: #ffffff; /* Dark mode text color */
+}

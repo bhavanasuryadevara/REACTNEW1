@@ -1,0 +1,28 @@
+/* Style for second navbar */
+.navbar.bg-body-secondary {
+    background-color: #e9ecef; /* Change background color as needed */
+    padding: 10px 0; /* Adjust padding as needed */
+  }
+  
+  /* Style for dropdown menus in the second navbar */
+  .navbar-nav .drop-menu {
+    background-color: #fff; /* Change background color as needed */
+    border: none; /* Remove borders */
+  }
+  
+  /* Style for dropdown items in the second navbar */
+  .navbar-nav .drop-menu .dropdown-item {
+    color: #333; /* Change text color as needed */
+  }
+  
+  /* Style for right side button in the second navbar */
+  .navbar .btn-outline-primary:last-child {
+    margin-right: 10px; /* Adjust margin as needed */
+  }
+  
+  
+  .btn-custom { /* Add a new class for the button */
+    float: left;
+  }
+  
+  

@@ -1,0 +1,57 @@
+/* Style for the container */
+.J {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./Images/email.jpg'); /* Replace 'your-background-image-url.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Style for the full height container */
+  .full-height-containerph {
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Background color with transparency */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the header */
+  .full-height-containerph h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the input field */
+  .full-height-containerph input[type="email"],
+  .full-height-containerph input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Style for the button */
+  .full-height-containerph button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Hover effect for the button */
+  .full-height-containerph button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style for the input container */
+  .P1 {
+    font-size: 25px;
+  }
+  

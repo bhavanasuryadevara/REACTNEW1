@@ -1,0 +1,44 @@
+/* CSS for Footer Component */
+footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+  }
+  
+  .container11 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .container11 h3{
+    text-align: left;
+  }
+  .col {
+    text-align: center;
+  }
+  
+  .col img {
+    width: 150px; /* Adjust size as needed */
+  
+    
+  }
+  
+  .social-links {
+    list-style-type: none;
+    padding: auto;
+    display: flex;
+    justify-content: left;
+  }
+  
+  .social-links li {
+    margin: 0 10px;
+  }
+  
+  .social-links li a {
+    color: #333;
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links li a:hover {
+    color: #007bff;
+  }
+  

@@ -1,0 +1,123 @@
+/* TradeTablecss2.css */
+
+.trade-table-container {
+    font-family: 'Arial', sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures items are evenly distributed */
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    transition: border-color 0.3s;
+  }
+  
+  .search-bar:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .suggestions {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .suggestions li {
+    cursor: pointer;
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 4px;
+  }
+  
+  .suggestions li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .trade-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .trade-table th, .trade-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .trade-table th {
+    background-color: #f0f0f0;
+  }
+  
+  .trade-table td a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .trade-table td a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .pagination-button {
+    margin: 0 5px;
+    padding: 10px 20px; /* Increased padding for button to match input height */
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .pagination-button.active {
+    background-color: #0056b3;
+  }
+  

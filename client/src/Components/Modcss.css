@@ -1,0 +1,124 @@
+.card-deck44 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the cards horizontally */
+    gap: 20px; /* Adjust the space between cards */
+  }
+
+  .card45 {
+    width: 18rem;
+    border: 1px solid #ccc; /* Add border for each card */
+    border-radius: 8px; /* Add border radius for rounded corners */
+    position: relative; /* Ensure positioning context for heart icon */
+    
+  }
+
+  .card45-img-top {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px; /* Round the top-left corner of the image */
+    border-top-right-radius: 8px; /* Round the top-right corner of the image */
+  }
+
+  .card45-body {
+    padding: 20px;
+  }
+
+  .card-footer46 {
+    padding: 10px 20px; /* Add padding to the footer */
+    border-bottom-left-radius: 8px; /* Round the bottom-left corner of the footer */
+    border-bottom-right-radius: 8px; /* Round the bottom-right corner of the footer */
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    align-self: flex-start;
+    
+  }
+  /* Reset default button styles */
+button {
+    border: none; /* Remove default border */
+    padding: 0; /* Remove default padding */
+    margin: 5px; /* Add some margin for spacing */
+    font-family: inherit; /* Inherit font family from parent element */
+  }
+  
+  /* Styles for buttons within .card-footer46 */
+  .card-footer46 .btn1 {
+    background-color: #ff005d; /* Blue color for button 1 */
+    color: white;
+    padding: 10px 20px; /* Add padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+ 
+  }
+  
+  .card-footer46 .btn3 {
+    background-color: #ff005d; /* Gray color for button 2 */
+   border: #ff005d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Optional: Add hover effects */
+  .card-footer46 button:hover {
+    opacity: 0.8; /* Semi-transparent on hover */
+  }
+  
+ 
+  .card45-body .btn1 {
+    margin-right: 10px; /* Add spacing between buttons */
+    
+
+  }
+
+  .heart-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: rgb(251, 250, 250);
+    cursor: pointer;
+    transition: color 0.1s; /* Smooth transition for color change */
+  }
+
+  .heart-icon.liked {
+    color: rgb(220, 53, 53); /* Color when liked */
+  }
+
+  .special-title-card1 {
+    height: 12rem; /* Set a specific height for the special title card */
+    font-size: 12px; /* Smaller font size to fit content */
+    padding: 5px; /* Smaller padding to reduce height */
+    background-color: rgb(200, 0, 255);
+    
+  }
+  .special-title-card1 .btn2{
+    font-size: 12px; /* Smaller font size for the button */
+    padding: 5px 10px; /* Adjust padding for the button */
+   text-decoration: double;
+   background-color: rgb(155, 41, 115);
+   color: red;
+   border-radius: 20px; /* Adjust the border-radius to change the shape */
+  
+  }
+
+  .special-title-card .card45-body {
+    padding: 5px; /* Smaller padding to reduce height */
+  }
+
+  .special-title-card .card45-title {
+    font-size: 14px; /* Adjust font size */
+    margin-bottom: 5px; /* Adjust margin */
+  }
+
+  .special-title-card .card45-text {
+    font-size: 12px; /* Adjust font size */
+    margin-bottom: 5px; /* Adjust margin */
+  }
+
+  .special-title-card .btn1 {
+    font-size: 12px; /* Smaller font size for the button */
+    padding: 5px 10px; /* Adjust padding for the button */
+  }

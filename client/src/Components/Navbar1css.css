@@ -1,0 +1,34 @@
+/* Navbar Styles */
+
+.navbar {
+    background-color: rgb(245, 245, 245); /* Change to your preferred background color */
+}
+
+.navbar-brand img {
+    max-height: 40px; /* Adjust the height of your logo */
+}
+
+.nav-link {
+    color: #0b0b0b; /* Adjust the color of the links */
+}
+
+.dropdown-menu {
+    background-color: white; /* Change to your preferred background color */
+}
+
+.dropdown-divider {
+    border-top: 1px solid #dee2e6; /* Adjust the color of the dropdown dividers */
+}
+
+.dropdown-item {
+    color: #0b0b0b; /* Adjust the color of the dropdown items */
+}
+
+.navbar .nav-item:hover .nav-link{
+    text-decoration: underline; 
+}  
+
+.navbar .nav-item:hover .nav-link{
+    color: rgb(231, 8, 71);
+
+}

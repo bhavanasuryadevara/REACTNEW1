@@ -1,0 +1,31 @@
+/* VerifyEmail.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container-fluid.v1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f8ff; /* Light blue background */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .container-fluid.v1 h1 {
+    color: #4caf50; /* Green color */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .container-fluid.v1 p {
+    color: #333;
+    font-size: 1.2em;
+    margin-top: 0;
+  }
+  

@@ -1,0 +1,19 @@
+.container {
+    text-align: center; /* Center-align all child elements */
+  }
+  
+  .centeredImage {
+    display: block; /* Ensure the image is a block element */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+  
+  .centeredText {
+    font-size: 24px; /* Example size for the heading */
+    margin-top: 10px; /* Example spacing between image and heading */
+  }
+  
+  .centeredButton {
+    margin-top: 20px; /* Example spacing between heading and button */
+    padding: 10px 20px; /* Example padding for button */
+  }
+  
